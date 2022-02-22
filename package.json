@@ -1,0 +1,23 @@
+{
+  "name": "test-task",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "prebuild": "npm install",
+    "start": "serve app/",
+    "lint": "eslint app/**/*.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "serve": "^6.5.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-babel": "^5.3.0"
+  }
+}

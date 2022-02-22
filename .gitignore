@@ -1,0 +1,15 @@
+dist
+
+node_modules
+bower_components
+coverage
+.coveralls.yml
+
+.dccache
+.tmp
+.sass-cache
+
+# Logs
+logs
+*.log
+npm-debug.log*
